@@ -1,0 +1,95 @@
+.formCard {
+  position: relative;
+  padding: 0rem;
+}
+
+.newAddressHeading {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f2f2;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  padding: 20px 10px 20px 20px;
+}
+.newAddressHeading span {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.newAddress {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 16px 24px;
+}
+.formFields {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.addAddressPopOver {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+  gap: 20px;
+}
+.formFields label {
+  font-size: 16px;
+  font-weight: 500;
+}
+.formFields input,
+select {
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px 1px #070808;
+}
+.formFields input,
+select {
+  background: #fff;
+  color: #525865;
+  border-radius: 4px;
+  border: 1px solid #d1d1d1;
+  box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.45;
+  outline: none;
+  padding: 0.6em 1.45em 0.7em;
+  -webkit-transition: 0.18s ease-out;
+  -moz-transition: 0.18s ease-out;
+  -o-transition: 0.18s ease-out;
+  transition: 0.18s ease-out;
+}
+
+.formFields input:hover,
+select {
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.formFields input:focus,
+select {
+  color: #4b515d;
+  border: 1px solid #b8b6b6;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01),
+    0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  
+}
+.button {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.adding:hover {
+  background-color: #fcd200;
+}
+.closeIcon {
+  height: 28px;
+  cursor: pointer;
+}

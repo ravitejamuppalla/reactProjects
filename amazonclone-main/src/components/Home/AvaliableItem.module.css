@@ -1,0 +1,94 @@
+.imgOfList {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.col-3-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10;
+}
+.card {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.MainHeading {
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.Price {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.addToCart {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: rgb(1, 165, 1);
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  align-items: center;
+  border-color: #fff;
+}
+.minus,
+.plus {
+  width: 20px;
+  height: 20px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 16px;
+}
+.input {
+  display: inline-block;
+  height: 30px;
+  width: 70px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.currentCartItem {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.currentCartItem button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #333;
+  border: 1px solid #333;
+  width: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.25rem;
+}
+
+.currentCartItem button:hover,
+.currentCartItem button:active {
+  background-color: #ff9f00;
+  color: white;
+}

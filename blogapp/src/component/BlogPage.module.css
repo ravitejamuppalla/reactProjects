@@ -1,0 +1,68 @@
+
+.blogDetails{
+   margin-top: 40px;
+   margin-bottom: 40px;
+   margin-left: 40px;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.publication{
+    display: flex;
+    gap: 15px;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.publicationName{
+    padding: 5px;
+    background-color: rgb(170, 106, 231);
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgb(17, 17, 17);
+
+}
+.publishedAt{
+    font-size: 12px;
+    color: rgb(79, 79, 79);
+}
+.title{
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-transform: none;
+    color:  rgb(17, 17, 17);
+    margin-bottom: 10px;
+
+
+}
+.description{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: rgb(79, 79, 79);
+    margin-top: 10px;
+}
+.titleLink{
+    text-decoration: none;
+}
+
+.errorMessage{
+    font-size: 28px;
+    text-align: center;
+    color: rgb(128, 8, 8);
+    margin-top: 100px;
+}
+
+.no__blogs {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5em;
+  }
+  
+  a{
+    text-decoration: none;
+  }

@@ -1,0 +1,20 @@
+
+
+.Header{
+
+    display: flex;
+    gap: 5px;
+    background-color: #ffd43b;
+    padding: 24px;
+    align-items: center;
+
+}
+.HighlightIcon{
+
+    color: #fff;
+    font-size: 24px;
+}
+.HeaderHeading{
+    color: #fff;
+    font-size: 32px;
+}

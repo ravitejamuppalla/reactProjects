@@ -1,0 +1,36 @@
+
+
+
+.cardNotes{
+    padding: 20px;
+    background-color: aquamarine;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.content{
+    font-size: 16px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+
+}
+.cardNotes button{
+    float: right;
+    width: 36px;
+    height: 36px;
+    outline: none;
+    color:  #ffd43b;
+    cursor: pointer;
+    position: relative;
+    border: none;
+
+}

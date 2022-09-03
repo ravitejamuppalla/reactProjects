@@ -1,0 +1,25 @@
+
+
+.flexitem{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.title{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-weight: 500;
+    max-height: 4rem;
+    overflow: hidden;
+    display: -webkit-box;
+    inline-size: 300px; 
+
+}
+.channelTitle{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 12px;
+    line-height: 1.8rem;
+    font-weight: 400;
+    color: rgb(117, 113, 113);
+}
