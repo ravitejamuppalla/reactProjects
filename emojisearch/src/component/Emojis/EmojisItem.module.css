@@ -1,0 +1,36 @@
+.resultsItem {
+  padding: 14px;
+  margin: 0px 20px 20px 20px;
+  border-bottom: 1px solid #ccc;
+  gap: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.symbol {
+  width: 48px;
+  display: inline-block;
+}
+.title {
+  position: relative;
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  top: -14px;
+}
+.resultsItem:hover {
+  background-color: #eee;
+}
+.resultsItem .info {
+  float: right;
+  color: rgb(137, 132, 132);
+  position: relative;
+  top: 14px;
+  right: 10px;
+  font-size: 18px;
+  display: none;
+}
+
+.resultsItem:hover .info {
+  display: inline-block;
+}

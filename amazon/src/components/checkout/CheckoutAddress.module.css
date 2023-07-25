@@ -1,0 +1,47 @@
+.checkoutAddress {
+  height: 500px;
+  width: 1000px;
+  margin-top: 50;
+  border: 1px solid #333;
+  margin: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.AddressHeading {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+.newAddressButton {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.newAddressButton img {
+  height: 20px;
+  color: rgb(13, 1, 1);
+}
+.selectAddressHeading {
+  font-size: 24px;
+  color: #c45500 !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.newAddressButton {
+  font-size: 18px;
+}
+.newAddressButton div:hover {
+  text-decoration: underline;
+  color: #c45500 !important;
+}
+.addedItems {
+  flex: 8 1 auto;
+  align-self: center;
+}
+.NoAddressFound {
+  font-size: 24px;
+  font-weight: 500;
+}

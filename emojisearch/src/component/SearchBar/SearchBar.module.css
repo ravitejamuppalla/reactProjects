@@ -1,0 +1,11 @@
+#emojiSearch {
+  width: 100%;
+  padding: 14px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.searchBar {
+  padding: 20px;
+  margin: 0px 10px 10px 10px;
+  border-bottom: 1px solid #ccc;
+}

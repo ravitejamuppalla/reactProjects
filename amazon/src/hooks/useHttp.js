@@ -14,9 +14,11 @@ function useHttp() {
         headers: requestConfig.headers ? requestConfig.headers : {},
         body: requestConfig.body ? JSON.stringify(requestConfig.body) : null,
       });
+      //   console.log(response);
       if (!response.ok) {
-        throw new Error(response.status + " Request failed! ");
+        throw new Error("Request failed!");
       }
+
       const data = await response.json();
       //   console.log(applyData);
       applyData(data);

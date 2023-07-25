@@ -1,0 +1,52 @@
+.cardsSide {
+  max-width: 500px;
+}
+
+.quotesCards {
+  background-color: #fff;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 45px 50px;
+}
+.quotesText {
+  font-size: 42px;
+}
+.quotesAuthor {
+  margin-top: 24px;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+.buttons {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  border: none;
+  outline: none;
+  padding: 18px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-weight: 600;
+  width: 130px;
+  color: #fff;
+}
+.ErrorMessage {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}

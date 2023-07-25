@@ -1,0 +1,19 @@
+.headerClass {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+  align-items: center;
+}
+
+.headerClass div {
+  font-size: 38px;
+  font-weight: 400;
+  font-family: "Open Sans ", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 20px;
+}
+.headerClass img {
+  width: 36px;
+  height: 42px;
+  padding: 10px;
+}
